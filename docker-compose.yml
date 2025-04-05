@@ -1,0 +1,7 @@
+services:
+  web:
+    image: ghcr.io/arian24b/s2dio/web:main
+    ports:
+      - "127.0.0.1:3008:3000"
+    environment:
+      - NODE_ENV=production
