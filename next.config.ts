@@ -1,9 +1,10 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
+  output: "export",
+  // output: "standalone",
   basePath: "/repo-name",
   assetPrefix: "/repo-name/",
-  // output: "standalone",
   trailingSlash: true,
   eslint: {
     ignoreDuringBuilds: true,

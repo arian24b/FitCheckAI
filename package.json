@@ -5,11 +5,9 @@
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build",
-    "export": "next export",
     "start": "next start",
     "lint": "next lint",
     "update": "ncu -u",
-    "predeploy": "npm run build && npm run export",
     "deploy": "gh-pages -d out",
     "docs": "uvx gitingest . -o docs/docs.txt -e docs/docs.txt -e package-lock.json -e .next -e node_modules",
     "check": "npm-check;depcheck"
